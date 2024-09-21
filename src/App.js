@@ -1,25 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Greetings from './Greetings/Greetings';
+import GreetingsArrow from './Greetings/GreetingsArrow';
+import GrettingsClass from './Greetings/GreetingsClass';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" >
+      <Greetings name="January 2024 from props" />
+      <GrettingsClass name="January 2024 from props"/>
+      <GreetingsArrow name="Jan2024 from arrow" />
     </div>
   );
 }
+
+
 
 export default App;
