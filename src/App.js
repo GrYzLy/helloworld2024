@@ -5,6 +5,7 @@ import GreetingsArrow from './Greetings/GreetingsArrow';
 import GrettingsClass from './Greetings/GreetingsClass';
 import Lifecycle from './Lifecycle/Lifecycle';
 import LoginForm from './LoginForm/LoginForm';
+import Quiz from './Quiz/Quiz';
 import SecretMessage from './SecretMessage/SecretMessage';
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
       {/* <CounterClass /> */}
       {/* <LoginForm /> */}
       {/* <SecretMessage /> */}
-      <Lifecycle />
+      {/* <Lifecycle /> */}
+      <Quiz />
     </div>
   );
 }
