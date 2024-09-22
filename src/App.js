@@ -3,6 +3,7 @@ import CounterClass from './Counter/CounterClass';
 import Greetings from './Greetings/Greetings';
 import GreetingsArrow from './Greetings/GreetingsArrow';
 import GrettingsClass from './Greetings/GreetingsClass';
+import Lifecycle from './Lifecycle/Lifecycle';
 import LoginForm from './LoginForm/LoginForm';
 import SecretMessage from './SecretMessage/SecretMessage';
 
@@ -14,7 +15,8 @@ function App() {
       <GreetingsArrow name="Jan2024 from arrow" /> */}
       {/* <CounterClass /> */}
       {/* <LoginForm /> */}
-      <SecretMessage />
+      {/* <SecretMessage /> */}
+      <Lifecycle />
     </div>
   );
 }
