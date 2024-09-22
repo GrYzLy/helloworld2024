@@ -1,6 +1,8 @@
 import './App.css';
 import CounterClass from './Counter/CounterClass';
+import CounterHook from './Counter/CounterHook';
 import FetchApi from './FetchApi/FetchApi';
+import FetchApiHook from './FetchApi/FetchApiHook';
 import Greetings from './Greetings/Greetings';
 import GreetingsArrow from './Greetings/GreetingsArrow';
 import GrettingsClass from './Greetings/GreetingsClass';
@@ -20,7 +22,9 @@ function App() {
       {/* <SecretMessage /> */}
       {/* <Lifecycle /> */}
       {/* <Quiz /> */}
-      <FetchApi />
+      {/* <FetchApi /> */}
+      {/* <CounterHook /> */}
+      <FetchApiHook />
     </div>
   );
 }
