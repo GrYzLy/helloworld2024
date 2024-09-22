@@ -4,6 +4,7 @@ import Greetings from './Greetings/Greetings';
 import GreetingsArrow from './Greetings/GreetingsArrow';
 import GrettingsClass from './Greetings/GreetingsClass';
 import LoginForm from './LoginForm/LoginForm';
+import SecretMessage from './SecretMessage/SecretMessage';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <GrettingsClass name="January 2024 from props"/>
       <GreetingsArrow name="Jan2024 from arrow" /> */}
       {/* <CounterClass /> */}
-      <LoginForm />
+      {/* <LoginForm /> */}
+      <SecretMessage />
     </div>
   );
 }
